@@ -14,7 +14,7 @@
 ## Pages SelectAllGeneralFunctions.php
 ########################################## */
 
-if($dossier = opendir('../functions'))
+if($dossier = opendir('../..'.PATH_TO_ROOT.'/kernel/functions'))
 {
 	while(false !== ($fichier = readdir($dossier)))
 	{

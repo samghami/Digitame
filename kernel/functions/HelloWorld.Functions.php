@@ -12,10 +12,16 @@
 ########################################## */
 
 /* ##########################################
-## Pages includes.php
+## Pages HelloWorld.functions.php
 ########################################## */
 
-require_once('conf/BDD/bdd.php');
-require_once('conf/conf.php');
-require_once('functions/SelectAllGeneralFunctions.php');
-
+	/**
+	 *	This function was construct juste for the debugging
+	 *	@param Nothing
+	 *	@return String
+	 */
+	function HelloWorld()
+	{
+		$string = "Voici mon texte";
+		return $string;
+	}
