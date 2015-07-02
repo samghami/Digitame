@@ -16,5 +16,5 @@
 ########################################## */
 
 require_once('conf/BDD/bdd.php');
-require_once('conf.php');
+require_once('conf/conf.php');
 require_once('functions/SelectAllGeneralFunctions.php');
