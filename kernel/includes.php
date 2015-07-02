@@ -17,9 +17,4 @@
 
 require_once('conf/BDD/bdd.php');
 require_once('conf/conf.php');
-<<<<<<< HEAD
 require_once('functions/SelectAllGeneralFunctions.php');
-=======
-require_once('functions/SelectAllGeneralFunctions.php');
-
->>>>>>> kernel-Functions
